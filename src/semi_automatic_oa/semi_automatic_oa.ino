@@ -78,8 +78,8 @@ void setup() {
   nh.subscribe(sub_targetPos2);
 
   // Initialize stepper motors
-  stepper1.setMaxSpeed(4000);
-  stepper1.setAcceleration(1000);
+  stepper1.setMaxSpeed(2000);
+  stepper1.setAcceleration(500);
 
   stepper2.setMaxSpeed(1000);
   stepper2.setAcceleration(500);
